@@ -50,3 +50,22 @@ problem-solving practice.
 - How to use HashMap in Java.
 - How to find two numbers that add up to a target.
 - How to improve a solution using HashMap.
+
+### 3. Valid Palindrome
+
+**Difficulty:** Easy  
+**Language:** Java
+
+**Problem:** https://leetcode.com/problems/valid-palindrome/
+
+**Approach: String Cleaning**
+- Removed spaces and special characters.
+- Converted the string to lowercase.
+- Compared characters from both ends.
+- Time Complexity: O(n²).
+- Space Complexity: O(n).
+- Result: Accepted.
+
+**What I learned:**
+- How to check if a string is a palindrome.
+- How string concatenation affects performance.
