@@ -81,3 +81,29 @@ problem-solving practice.
 - How to use the Two Pointers technique.
 - Why nested loops do not always mean O(n²) time complexity.
 - How to optimize space complexity from O(n) to O(1).
+
+
+## Week 2
+
+### 1. Binary Search
+
+**Difficulty:** Easy  
+**Language:** Java
+
+**Problem:** https://leetcode.com/problems/binary-search/
+
+**Approach: Binary Search**
+- Used two pointers (`low` and `high`) to define the search range.
+- Calculated the middle index (`mid`) in each iteration.
+- Compared the middle element with the target.
+- Eliminated half of the search range based on the comparison.
+- Returned the target's index if found, or `-1` if not found.
+- Time Complexity: O(log n).
+- Space Complexity: O(1).
+- Result: Accepted.
+
+**What I learned:**
+- How Binary Search works on a sorted array.
+- How to use `low`, `high`, and `mid` to find a target.
+- How to update the search boundaries correctly.
+- Why Binary Search has O(log n) time complexity.
