@@ -58,7 +58,7 @@ problem-solving practice.
 
 **Problem:** https://leetcode.com/problems/valid-palindrome/
 
-**Approach: String Cleaning**
+**Approach 1: String Cleaning**
 - Removed spaces and special characters.
 - Converted the string to lowercase.
 - Compared characters from both ends.
@@ -66,6 +66,18 @@ problem-solving practice.
 - Space Complexity: O(n).
 - Result: Accepted.
 
+**Approach 2: Two Pointers**
+- Used two pointers (`left` and `right`) starting from opposite ends of the string.
+- Skipped non-alphanumeric characters using `Character.isLetterOrDigit()`.
+- Compared characters ignoring case using `Character.toLowerCase()`.
+- Moved both pointers toward the center without creating a new string.
+- Time Complexity: O(n).
+- Space Complexity: O(1).
+- Result: Accepted.
+
 **What I learned:**
 - How to check if a string is a palindrome.
 - How string concatenation affects performance.
+- How to use the Two Pointers technique.
+- Why nested loops do not always mean O(n²) time complexity.
+- How to optimize space complexity from O(n) to O(1).
