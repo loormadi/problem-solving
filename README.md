@@ -107,3 +107,32 @@ problem-solving practice.
 - How to use `low`, `high`, and `mid` to find a target.
 - How to update the search boundaries correctly.
 - Why Binary Search has O(log n) time complexity.
+
+  ### 2. Valid Anagram
+
+**Difficulty:** Easy  
+**Language:** Java
+
+**Problem:** https://leetcode.com/problems/valid-anagram/
+
+**Approach 1: Brute Force**
+- Used nested loops to find matching characters.
+- Used a boolean array to track already matched characters.
+- Time Complexity: O(n²).
+- Space Complexity: O(n).
+- Result: Time Limit Exceeded.
+
+**Approach 2: Frequency Counting**
+- Used an integer array of size 26 to count character frequencies.
+- Incremented the count for each character in the first string.
+- Decremented the count for each character in the second string.
+- Checked that all frequencies were zero.
+- Time Complexity: O(n).
+- Space Complexity: O(1).
+- Result: Accepted.
+
+**What I learned:**
+- How to check whether two strings are anagrams.
+- How to use a frequency array to count character occurrences.
+- How to convert lowercase letters into array indices.
+- How to optimize time complexity from O(n²) to O(n).
