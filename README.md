@@ -1,7 +1,5 @@
 # Problem Solving
 
-problem-solving practice.
-
 ## Week 1
 
 ### 1. Contains Duplicate
@@ -108,7 +106,7 @@ problem-solving practice.
 - How to update the search boundaries correctly.
 - Why Binary Search has O(log n) time complexity.
 
-  ### 2. Valid Anagram
+### 2. Valid Anagram
 
 **Difficulty:** Easy  
 **Language:** Java
@@ -136,3 +134,29 @@ problem-solving practice.
 - How to use a frequency array to count character occurrences.
 - How to convert lowercase letters into array indices.
 - How to optimize time complexity from O(n²) to O(n).
+
+### 3. Best Time to Buy and Sell Stock
+
+**Difficulty:** Easy  
+**Language:** Java
+
+**Problem:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+**Approach 1: Brute Force**
+- Used nested loops to check every possible buying and selling pair.
+- Ensured the selling day comes after the buying day.
+- Calculated the profit for each pair and tracked the maximum profit.
+- Time Complexity: O(n²).
+- Space Complexity: O(1).
+- Result: Time Limit Exceeded.
+
+**Approach 2: One Pass (Greedy)**
+- Traversed the array once.
+- Kept track of the minimum stock price seen so far.
+- Calculated the potential profit for each selling day.
+- Updated the maximum profit whenever a higher profit was found.
+- Time Complexity: O(n).
+- Space Complexity: O(1).
+- Result: Accepted.
+
+
