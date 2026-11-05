@@ -159,4 +159,24 @@
 - Space Complexity: O(1).
 - Result: Accepted.
 
+### 4. Valid Parentheses
+
+**Difficulty:** Easy  
+**Language:** Java  
+**Problem:** https://leetcode.com/problems/valid-parentheses/
+
+**Approach: Stack (LIFO)**
+
+- Used a stack to store opening brackets: `(`, `{`, and `[`.
+- Traversed the string character by character.
+- When encountering a closing bracket, checked whether the stack was empty.
+- Used `peek()` to compare the closing bracket with the most recent opening bracket.
+- Used `pop()` to remove matching opening brackets.
+- Returned `false` immediately if the brackets did not match.
+- After processing the entire string, returned `stack.isEmpty()` to ensure all brackets were matched.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)  
+**Result:** Accepted
+
 
