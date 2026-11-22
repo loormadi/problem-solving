@@ -180,3 +180,29 @@
 **Result:** Accepted
 
 
+## Week 3
+
+### 1. Running Sum of 1D Array
+
+**Difficulty:** Easy  
+**Language:** Python 3
+
+**Problem:** https://leetcode.com/problems/running-sum-of-1d-array/
+
+**Approach: Prefix Sum**
+- Created an empty list to store the running sums.
+- Initialized a variable `total` to zero.
+- Used a `for` loop to iterate through the numbers.
+- Added each number to `total`.
+- Used `append()` to store each running sum in the new list.
+- Returned the final list.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)  
+**Result:** Accepted.
+
+**What I learned:**
+- How to use `for` loops in Python.
+- How to work with lists and `append()`.
+- How to calculate a running sum.
+
