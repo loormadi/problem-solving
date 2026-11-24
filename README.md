@@ -206,3 +206,26 @@
 - How to work with lists and `append()`.
 - How to calculate a running sum.
 
+
+### 2. Design Parking System
+
+**Difficulty:** Easy  
+**Language:** Python 3
+
+**Problem:** https://leetcode.com/problems/design-parking-system/
+
+**Approach: Object-Oriented Programming (OOP)**
+- Created a `ParkingSystem` class to manage three types of parking spaces.
+- Used `__init__` to initialize the number of available big, medium, and small parking spaces.
+- Used `self` to store and access instance attributes.
+- Implemented the `addCar()` method to check the car type and available parking spaces.
+- Decreased the corresponding parking space count when a car successfully parks.
+- Returned `True` if a parking space was available, otherwise returned `False`.
+- Used conditional statements (`if` and `elif`) to handle different car types.
+
+**Time Complexity:** O(1)  
+**Space Complexity:** O(1)  
+**Result:** Accepted.
+
+
+
